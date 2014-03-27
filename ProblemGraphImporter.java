@@ -20,7 +20,7 @@ import org.jgraph.graph.DefaultPort;
 
 public class ProblemGraphImporter {
 
-    Pane mainPane;
+    Editor mainPane;
     private static Logger logs = Logger.getLogger("Logs");
     
     public class IncorcectGraphXMLFileException extends Exception {
